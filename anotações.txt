@@ -1,0 +1,11 @@
+ EXPLICANDO CADA ARQUIVO
+
+ pasta > ffmpeg-win64 -> usamos o arquivo "ffmpeg.exe" que está dentro da pasta bin, para comprimir os videos.
+
+ pasta > src -> nesta pasta precisa ter 
+      1: os videos que desejamos comprimir. (na pasta src)
+      2: criar uma pasta para depositar os videos depois que eles forem comprimidos. (o nome da pasta precisa ser ajustado na linha de codigo 45 do arquivo "gerandoVideoComprimido" [`${parent}/depositoDeVideos/${video}-${qualidade}.mp4`])
+
+arquivo > childprocess.js ( ignorar, somente aula)
+
+arquivo > gerandoVideoComprimido.js -> arquivo que deve ser executado no terminal, com o comando ( node gerandoVideoComprimido ./src nomeDoVideo 1)
